@@ -74,6 +74,15 @@ def main():
     if not is_finished(board):
         print("Game over! You've used all 10 attempts.")
 
-
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
