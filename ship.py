@@ -71,7 +71,7 @@ class Ship:
                 break
 
             try:
-                name, x, y = user_input.split()
+                name, x, y = user_input.split(" ")
             except ValueError:
                 print("Error: <symbol> <x> <y>")
                 continue
